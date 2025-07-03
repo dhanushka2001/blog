@@ -3,7 +3,8 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
-import HeroSection from '@/components/HeroSection'
+// import HeroSection from '@/components/HeroSection'
+import Hero from '@/components/Hero'
 import { UnderlineHoverLink } from '@/components/UnderlineHoverLink'
 import Image from '@/components/Image'
 import { ReadingTime } from '@/components/reading-time'
@@ -14,7 +15,7 @@ export default function Home({ posts }) {
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-1 md:space-y-5">
-          <HeroSection />
+          <Hero />
         </div>
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
