@@ -142,7 +142,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                     </div>
                   )}
                   {(next || prev) && (
-                    <div className="flex justify-between py-4 xl:block xl:space-y-8 xl:py-8">
+                    <div className="flex flex-wrap justify-between gap-4 py-4 xl:block xl:space-y-8 xl:py-8">
                       {prev && prev.path && (
                         <div>
                           <h2 className="text-xs tracking-wide text-gray-500 uppercase dark:text-gray-400">

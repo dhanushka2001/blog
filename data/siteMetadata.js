@@ -1,13 +1,13 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'trungtmnguyen',
-  author: 'Nguyen Ta Minh Trung',
-  headerTitle: 'trungtmnguyen',
-  description: 'Between 🪑 and ⌨️',
+  title: 'title',
+  author: 'Dhanushka Jayagoda',
+  headerTitle: 'headerTitle',
+  description: 'description',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://trungtmnguyen.com/',
-  siteRepo: 'https://github.com/trungntm/trungtmnguyen.com',
+  siteUrl: 'https://dhanushka2001.com/',
+  siteRepo: 'https://github.com/dhanushka2001/blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/pages/avatar.jpg',
   mastodon: 'https://mastodon.social/@mastodonuser',
@@ -72,6 +72,7 @@ const siteMetadata = {
       themeURL: '',
       // This corresponds to the `data-lang="en"` in giscus's configurations
       lang: 'en',
+      inputPosition: 'top',
     },
   },
   search: {

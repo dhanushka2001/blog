@@ -164,7 +164,9 @@ export default function ListLayoutWithTags({
                             </dd>
                           </dl>
                           <div className="flex flex-wrap py-2">
-                            {tags?.map((tag) => <Tag key={tag} text={tag} />)}
+                            {tags?.map((tag) => (
+                              <Tag key={tag} text={tag} />
+                            ))}
                           </div>
                           <div className="prose max-w-none py-2 text-gray-500 dark:text-gray-400">
                             {summary}
