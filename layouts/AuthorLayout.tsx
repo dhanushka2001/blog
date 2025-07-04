@@ -37,12 +37,14 @@ export default function AuthorLayout({ children, content }: Props) {
             <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
             <div className="text-gray-500 dark:text-gray-400">{company}</div>
             <div className="text-gray-500 dark:text-gray-400">
-              <a href={`mailto:${email}`} className="hover:underline">
+              {/* COMMENTED OUT
+               <a href={`mailto:${email}`} className="hover:underline">
                 {email}
-              </a>
+               </a>
+            */}
             </div>
             <div className="text-gray-500 dark:text-gray-400">{phone}</div>
-            <div className="flex space-x-3 pt-6">
+            <div className="flex space-x-3 pt-3">
               <SocialIcon kind="mail" href={`mailto:${email}`} />
               <SocialIcon kind="github" href={github} />
               <SocialIcon kind="linkedin" href={linkedin} />
@@ -51,10 +53,12 @@ export default function AuthorLayout({ children, content }: Props) {
           </div>
           <div className="prose dark:prose-invert max-w-none pt-8 pb-8 xl:col-span-2">
             {children}
+            {/* COMMENTED OUT
             <div className={'pt-2'}>
               <AnchorLink href={'career-path'}>Career Path 🚀</AnchorLink>
               <Timeline />
             </div>
+            */}
           </div>
         </div>
       </div>

@@ -4,7 +4,8 @@ import AvatarLayout from '@/layouts/AvatarLayout'
 import { coreContent } from 'pliny/utils/contentlayer'
 
 export default function Hero() {
-  const author = allAuthors.find((p) => p.slug === 'default') as Authors
+  // choose author to be in the Hero page
+  const author = allAuthors.find((p) => p.slug === 'dhanushka-jayagoda') as Authors
   const mainContent = coreContent(author)
 
   return (

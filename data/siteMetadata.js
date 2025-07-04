@@ -1,15 +1,15 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'title',
+  title: "Dhanushka's Blog",
   author: 'Dhanushka Jayagoda',
-  headerTitle: 'headerTitle',
-  description: 'description',
+  headerTitle: "Dhanushka's Blog",
+  description: 'In the dream, they took me to the light. A beautiful lie.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://dhanushka2001.com/',
   siteRepo: 'https://github.com/dhanushka2001/blog',
   siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/pages/avatar.jpg',
+  socialBanner: '/static/images/pages/avatar.png',
   // mastodon: 'https://mastodon.social/@mastodonuser',
   // phone: '+84 384 648 350',
   email: 'dhanushka2001@gmail.com',
