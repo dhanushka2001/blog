@@ -7,7 +7,8 @@ import { genPageMetadata } from 'app/seo'
 export const metadata = genPageMetadata({ title: 'About' })
 
 export default function Page() {
-  const author = allAuthors.find((p) => p.slug === 'dhanushkajayagoda') as Authors
+  // choose author to be in the About page
+  const author = allAuthors.find((p) => p.slug === 'dhanushka-jayagoda') as Authors
   const mainContent = coreContent(author)
 
   return (
