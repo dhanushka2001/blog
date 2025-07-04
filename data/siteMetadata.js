@@ -10,12 +10,12 @@ const siteMetadata = {
   siteRepo: 'https://github.com/dhanushka2001/blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/pages/avatar.jpg',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  phone: '+84 384 648 350',
-  email: 'trungntm.97@gmail.com',
-  github: 'https://github.com/trungntm',
-  facebook: 'https://www.facebook.com/trungtmnguyen',
-  linkedin: 'https://www.linkedin.com/in/trung-nguyen-590720192/',
+  // mastodon: 'https://mastodon.social/@mastodonuser',
+  // phone: '+84 384 648 350',
+  email: 'dhanushka2001@gmail.com',
+  github: 'https://github.com/dhanushka2001',
+  // facebook: 'https://www.facebook.com/trungtmnguyen',
+  linkedin: 'https://www.linkedin.com/in/dhanushka-jayagoda-3572a91b8/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -72,7 +72,8 @@ const siteMetadata = {
       themeURL: '',
       // This corresponds to the `data-lang="en"` in giscus's configurations
       lang: 'en',
-      inputPosition: 'top',
+      // Position of "Write a comment" box. 'top' = on top / 'bottom' = below comments.
+      inputPosition: 'bottom',
     },
   },
   search: {
