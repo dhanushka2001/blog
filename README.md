@@ -1,5 +1,7 @@
 # Personal blog
 
+[![Build and deploy to Vercel](https://github.com/dhanushka2001/blog/actions/workflows/buildAndDeploy.yaml/badge.svg?branch=main)](https://github.com/dhanushka2001/blog/actions/workflows/buildAndDeploy.yaml)
+
 In development
 
 ## Inspirations:
